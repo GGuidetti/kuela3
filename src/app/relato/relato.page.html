@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      MODELOS DESPADRONIZADOS
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="ion-padding">
+    <p><b>Relatar um modelo</b></p>
+    <ion-input [(ngModel)]="relato.modelo">
+      </ion-input>
+    <p><b>qual o problema?</b></p>
+    <ion-input [(ngModel)]="relato.problema"> </ion-input>
+
+
+
+
+  <ion-button (click)='enviar()'  expand="block" color="medium" href="listar" >Enviar</ion-button>
+    <ion-button  expand="block" color="medium" href="calculo">Voltar a tela de calculo</ion-button>
+
+</div>
+</ion-content>
